@@ -18,5 +18,25 @@ public class Ex06 {
 		}System.out.println(c);
 		
 	} 
+	/*
+	 // 문장 출력
+		for (int i = 0; i < c.length; i++) {
+			System.out.print(c[i]);
+		}
+		System.out.println("");
+
+		// 배열의 검사하여 공백이면 콤마로 변경
+		for (int i = 0; i < c.length; i++) {
+			if (c[i] == ' ') {
+				c[i] = ',';
+			}
+		}
+
+		// 문장 출력
+		for (int i = 0; i < c.length; i++) {
+			System.out.print(c[i]);
+		}
+		System.out.println("");
+	 */
 
 }

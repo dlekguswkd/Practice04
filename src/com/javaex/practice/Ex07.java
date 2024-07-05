@@ -36,6 +36,7 @@ public class Ex07 {
 		wonArray[9] = 1;
 		
 		Scanner sc =new Scanner(System.in);
+		System.out.print("금액: ");
 		
 		int won =sc.nextInt();
 		int[] num = new int[10];
@@ -49,6 +50,16 @@ public class Ex07 {
 		
 		sc.close();
 
+		/*
+		 int money = sc.nextInt();
+
+		for (int i = 0; i < wonArray.length; i++) {
+			int won = wonArray[i];
+			int count = money / won;
+			money = money - (count * won);
+			System.out.println(won + "원:" + count + "개");
+		}
+		 */
 	}
 
 }
